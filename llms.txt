@@ -1,15 +1,12 @@
 # PPT Master Deck MCP
 
-PPT Master Deck MCP is a hosted remote MCP for ppt-master.
+Paid remote MCP for ppt-master, structured receipts, usage logs, and audit-ready JSON evidence.
 
 Website: https://pptmasterdeck.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: ppt-master
-Type: MCP
-Default plan: team
 MCP endpoint: https://pptmasterdeck.clauxel.com/mcp
 Server card: https://pptmasterdeck.clauxel.com/server-card.json
-Registry name: com.clauxel.pptmasterdeck/pptmasterdeck-mcp
-Tools: generate_editable_deck, revise_deck_outline, render_deck_preview, export_deck_receipt
+Docs: https://github.com/clauxel/ppt-master-deck-mcp-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: PPT Master Deck MCP remote MCP for ppt-master.
+Authentication: Bearer token required for production use.
+Tools: generate_editable_deck, revise_deck_outline, render_deck_preview, export_deck_receipt
